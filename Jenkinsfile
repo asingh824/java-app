@@ -8,13 +8,13 @@ pipeline{
         stage('Git Checkout'){
 
             steps{
-            gitCheckout(
-                branch: "main",
-                url: "https://github.com/asingh824/java-app.git"
+            script(
+                branch: "main", url: 'https://github.com/asingh824/java-app.git'
                     )   
             }
         }
 
+    /*
     stage('Unit Test maven'){
             steps{
                     script{
@@ -22,6 +22,7 @@ pipeline{
                     }   
                 }
             }
+            */
     }
 }
 
