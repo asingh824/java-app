@@ -23,6 +23,4 @@ pipeline{
             */
     }
 }
-
-
-//git branch: 'main', url: 'https://github.com/asingh824/java-app.git'
+}
