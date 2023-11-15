@@ -1,5 +1,4 @@
-//new jenkinsfile
-@Library('my-shared-library-1') _
+
 pipeline{
 
     agent any
